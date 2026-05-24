@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "134006927532",
+    "project_id": "androidcoursesashadaniel",
+    "storage_bucket": "androidcoursesashadaniel.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134006927532:android:0ed6938e8692bd4cb46f09",
+        "android_client_info": {
+          "package_name": "com.danielandsasha.android_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVR6t0bM5h3QYBCFd_e7_apTnf9Bn-1c4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134006927532:android:11c9a71da534df43b46f09",
+        "android_client_info": {
+          "package_name": "com.example.sasha_and_daniel"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVR6t0bM5h3QYBCFd_e7_apTnf9Bn-1c4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
