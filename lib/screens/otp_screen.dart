@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'dashboard_screen.dart';
 
-import 'profile_screen.dart';
 
 class OtpScreen extends StatefulWidget {
   final String verificationId;
@@ -72,7 +72,7 @@ class _OtpScreenState extends State<OtpScreen> {
       Navigator.pushReplacement(
         context,
         MaterialPageRoute(
-          builder: (context) => const ProfileScreen(),
+          builder: (context) => const DashboardScreen(),
         ),
       );
     } on FirebaseAuthException catch (e) {

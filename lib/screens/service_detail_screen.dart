@@ -120,32 +120,6 @@ class ServiceDetailScreen extends StatelessWidget {
                 height: 1.4,
               ),
             ),
-
-            const Spacer(),
-
-            SizedBox(
-              width: double.infinity,
-              height: 55,
-              child: ElevatedButton.icon(
-                style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.blue,
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(28),
-                  ),
-                ),
-                onPressed: () {
-                  Navigator.pop(context);
-                },
-                icon: const Icon(Icons.arrow_back, color: Colors.white),
-                label: const Text(
-                  'Back to services',
-                  style: TextStyle(
-                    color: Colors.white,
-                    fontSize: 17,
-                  ),
-                ),
-              ),
-            ),
           ],
         ),
       ),
