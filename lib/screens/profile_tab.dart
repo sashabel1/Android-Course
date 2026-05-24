@@ -4,6 +4,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 
 import 'edit_profile_screen.dart';
 import 'apps_screen.dart';
+import 'documents_screen.dart';
 
 class ProfileTab extends StatefulWidget {
   const ProfileTab({super.key});
@@ -160,6 +161,40 @@ class _ProfileTabState extends State<ProfileTab> {
               label: const Text(
                 'Edit Profile',
                 style: TextStyle(color: Colors.white, fontSize: 17),
+              ),
+            ),
+          ),
+
+          const SizedBox(height: 15),
+
+          SizedBox(
+            width: 250,
+            height: 50,
+            child: ElevatedButton.icon(
+              style: ElevatedButton.styleFrom(
+                backgroundColor: Colors.pink,
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(25),
+                ),
+              ),
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const DocumentsScreen(),
+                  ),
+                );
+              },
+              icon: const Icon(
+                Icons.folder,
+                color: Colors.white,
+              ),
+              label: const Text(
+                'My Documents',
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 17,
+                ),
               ),
             ),
           ),
